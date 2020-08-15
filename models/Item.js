@@ -1,3 +1,6 @@
+// Mongoose needs models to interact with the database and store data in it
+// So we create a model for the item and export it
+
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema
 
